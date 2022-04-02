@@ -31,9 +31,6 @@ function App() {
         setAge(res.data.results[0].dob);
         setDate(res.data.results[0].registered.date);
       })
-      .catch((err) => {
-        console.log(err);
-      });
   }, []);
 
   const handleClick = () => {
