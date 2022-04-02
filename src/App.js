@@ -79,7 +79,7 @@ function App() {
         </div>
       </div>
       <Button variant="contained" color="primary" onClick={handleClick} className="btn">
-        Rondom User
+        Random User
       </Button>
     </div>
   );
